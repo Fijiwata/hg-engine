@@ -1,4 +1,4 @@
- -
+ - 
 The stench helps keep\nwild Pokémon away.
 The Pokémon makes it rain\nif it appears in battle.
 Its Speed stat is\ngradually boosted.
@@ -39,7 +39,7 @@ Raises the Pokémon’s\nAttack stat.
 Contact with the Pokémon\nmay poison the foe.
 The Pokémon is protected\nfrom flinching.
 Prevents the Pokémon\nfrom becoming frozen.
-Prevents the Pokémon\nfrom getting a burn.
+Restores HP if hit by a\nGround-type move.
 Prevents Steel-type\nPokémon from escaping.
 Gives full immunity to all\nsound-based moves.
 The Pokémon gradually\nrecovers HP in rain.
@@ -295,5 +295,5 @@ Ups Attack and Sp. Atk\nif allies were defeated.
 Copies an ally’s stat\nchanges when sent out.
 Scatters poison spikes\nif hit by physical moves.
 Makes foes unable to\nuse priority attacks.
-Restores HP if hit by a\nGround-type move.
+Prevents the Pokémon\nfrom getting a burn.
 Status moves go last\nbut ignore abilities.

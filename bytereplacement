@@ -407,6 +407,7 @@ arm9 02074128 F8 B5 82 B0 00 90 00 20
 # expand allowed terrain platforms
 0012 02265FEE FF
 
+<<<<<<< Updated upstream
 # BattleSystem_CheckMoveEffect_hook setup
 0012 0224C018 60 B4 C0 46
 
@@ -416,3 +417,25 @@ arm9 02074128 F8 B5 82 B0 00 90 00 20
 
 # Fix Hidden Power to 60 BP (change +30 instruction to =60)
 0012 022424DC 3C 20
+=======
+# Old Rod Rates (40%, 20%, 20%, 15%, 5%)
+0002 08001BB4 28
+0002 08001BBE 3C
+0002 08001BC6 3C
+0002 08001BCA 50
+0002 08001BD2 50
+0002 08001BD6 5F
+
+# Good Rod Rates (40%, 20%, 20%, 15%, 5%)
+0002 08001BF8 28
+0002 08001C00 3C
+0002 08001C08 50
+0002 08001C10 5F
+
+# Super Rod Rates (50%, 15%, 15%, 10%, 5% - code is fuzzy, unsure)
+0002 08001C54 32
+0002 08001C5C 41
+0002 08001C64 50
+0002 08001C6C 5A
+0002 08001C74 5F
+>>>>>>> Stashed changes

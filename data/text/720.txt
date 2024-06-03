@@ -39,7 +39,7 @@ Huge Power
 Poison Point
 Inner Focus
 Magma Armor
-Water Veil
+Earth Eater
 Magnet Pull
 Soundproof
 Rain Dish
@@ -295,7 +295,7 @@ Supreme Overlord
 Costar
 Toxic Debris
 Armor Tail
-Earth Eater
+Water Veil
 Mycelium Might
 Hospitality
 Mind’s Eye

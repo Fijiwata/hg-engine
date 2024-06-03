@@ -17,6 +17,10 @@
 .endmacro
 
 .macro learnset,move,level
+<<<<<<< Updated upstream
+=======
+.if move <= NUM_OF_MOVES
+>>>>>>> Stashed changes
     .word (level << 16 | move)
 .endmacro
 

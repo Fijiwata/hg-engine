@@ -117,6 +117,16 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // 02252F24
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_EARTH_EATER) == TRUE)
+    {
+        if ((movetype == TYPE_GROUND) && (attacker != defender))
+        {
+            sp->hp_calc_work = BattleDamageDivide(sp->battlemon[defender].maxhp, 4);
+            scriptnum = SUB_SEQ_ABILITY_HP_RESTORE;
+        }
+    }
+
     // 02252F6A
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLASH_FIRE) == TRUE)
     {
